@@ -1,12 +1,12 @@
 module github.com/derailed/popeye
 
-go 1.23.0
+go 1.24
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.29.9
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.66
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.78.2
-	github.com/aws/smithy-go v1.22.2
+	github.com/aws/smithy-go v1.24.2
 	github.com/blang/semver/v4 v4.0.0
 	github.com/cilium/cilium v1.16.6
 	github.com/fvbommel/sortorder v1.1.0
@@ -34,7 +34,7 @@ require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.36.3 // indirect
-	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.6.10 // indirect
+	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.8 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.62 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.30 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.34 // indirect
